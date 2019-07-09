@@ -8,6 +8,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "~6.0",
+	"soapbox/laravel-formatter": "0.*"
         "elibyy/laravel-tcpdf": "0.*"
     },
     "autoload": {
