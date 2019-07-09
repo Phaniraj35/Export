@@ -1,0 +1,27 @@
+{
+    "name": "lws/exportactions",
+    "authors": [
+        {
+            "name": "Phaniraj35",
+            "email": "phaniitng@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "soapbox/laravel-formatter": "2.*",
+        "elibyy/laravel-tcpdf": "0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LWS\\ExportActions\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LWS\\ExportActions\\ExportServiceProvider"
+            ]
+            
+        }
+    }
+}
